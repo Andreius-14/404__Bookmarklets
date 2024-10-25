@@ -5,7 +5,7 @@ function filterHtml (etiquetasArray) {
 
   const divsSeleccionados = [];
   for (const etiqueta of etiquetasArray) {
-    const divs = document.querySelectorAll(`[id*="${etiqueta}"],[class*="${etiqueta}"]`)
+    const divs = document.querySelectorAll(`[id*="${etiqueta}"],[class*="${etiqueta}"],[href*="${etiqueta}"]`)
 
     console.log(etiqueta);
     console.log(divs.length)
@@ -32,6 +32,7 @@ const etiquetasAnuncios = [
   // 'ad',
   // 'ads',
   // 'ad-', // Seguido de un guión y otro texto
+  'adclick',  /*[Url de un Anuncio]*/
   'adframe',
   'sponsored',
   'google_ads_iframe',
