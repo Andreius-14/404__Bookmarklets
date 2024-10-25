@@ -30,8 +30,7 @@ function edit (divs) {
 
 const etiquetasAnuncios = [
   // 'ad',
-  // 'ads',
-  // 'ad-', // Seguido de un guión y otro texto
+   '-ads', 'ads-','ads_','-Ads' ,'ad-container', // Seguido de un guión y otro texto
   'adclick',  /*[Url de un Anuncio]*/
   'adframe',
   'sponsored',
